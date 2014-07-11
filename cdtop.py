@@ -12,5 +12,5 @@ while True:
         print current
         break
     if os.path.basename(current) == "":
-        print "."
+        sys.stderr.write("No parent found\n")
         break
